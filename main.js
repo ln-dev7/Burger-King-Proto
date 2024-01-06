@@ -16,6 +16,9 @@ arrowRight.addEventListener("click", () => {
       gsap.to(".container-1 .burger-container img:nth-child(2)", {
         marginBottom: "-100px",
       });
+      gsap.to(".container-1 .burger-tools img", {
+        opacity: 1,
+      });
       gsap.to(".container-1 .burger-title", {
         y: -325,
       });
@@ -53,6 +56,9 @@ arrowRight.addEventListener("click", () => {
       gsap.to(".container-2 .burger-container img:nth-child(2)", {
         marginBottom: "-100px",
       });
+      gsap.to(".container-2 .burger-tools img", {
+        opacity: 1,
+      });
       gsap.to(".container-2 .burger-title", {
         y: -325,
       });
@@ -89,6 +95,9 @@ arrowRight.addEventListener("click", () => {
       });
       gsap.to(".container-3 .burger-container img:nth-child(2)", {
         marginBottom: "-100px",
+      });
+      gsap.to(".container-3 .burger-tools img", {
+        opacity: 1,
       });
       gsap.to(".container-3 .burger-title", {
         y: -325,
@@ -133,6 +142,9 @@ arrowLeft.addEventListener("click", () => {
         marginBottom: "0",
         y: 0,
       });
+      gsap.to(".container-1 .burger-tools img", {
+        opacity: 0,
+      });
       gsap.to(".container-1 .burger-title", {
         y: 0,
       });
@@ -144,6 +156,9 @@ arrowLeft.addEventListener("click", () => {
       });
       gsap.to(".container-1 .burger-container img:nth-child(2)", {
         marginBottom: "-100px",
+      });
+      gsap.to(".container-1 .burger-tools img", {
+        opacity: 1,
       });
       gsap.to(".container-1 .burger-title", {
         y: -325,
@@ -177,6 +192,9 @@ arrowLeft.addEventListener("click", () => {
         marginBottom: "0",
         y: 0,
       });
+      gsap.to(".container-2 .burger-tools img", {
+        opacity: 0,
+      });
       gsap.to(".container-2 .burger-title", {
         y: 0,
       });
@@ -188,6 +206,9 @@ arrowLeft.addEventListener("click", () => {
       });
       gsap.to(".container-2 .burger-container img:nth-child(2)", {
         marginBottom: "-100px",
+      });
+      gsap.to(".container-2 .burger-tools img", {
+        opacity: 1,
       });
       gsap.to(".container-2 .burger-title", {
         y: -325,
@@ -220,6 +241,9 @@ arrowLeft.addEventListener("click", () => {
       gsap.to(".container-3 .burger-container img", {
         marginBottom: "0",
         y: 0,
+      });
+      gsap.to(".container-3 .burger-tools img", {
+        opacity: 0,
       });
       gsap.to(".container-3 .burger-title", {
         y: 0,
