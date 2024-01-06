@@ -241,6 +241,11 @@ a {
   transform: translateX(-50%);
   .arrow {
     cursor: pointer;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
   }
 }
 

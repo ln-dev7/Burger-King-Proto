@@ -120,8 +120,10 @@ arrowRight.addEventListener("click", () => {
     //   });
     // }
     variation++;
+  } else {
+    alert("Click on the left button");
   }
-  console.log("variation", variation);
+  //console.log("variation", variation);
 });
 
 arrowLeft.addEventListener("click", () => {
@@ -224,6 +226,8 @@ arrowLeft.addEventListener("click", () => {
       });
     }
     variation--;
+  } else {
+    alert("Click on the right button");
   }
-  console.log("variation", variation);
+  //console.log("variation", variation);
 });
