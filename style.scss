@@ -268,5 +268,8 @@ a {
     text-decoration: underline;
     text-underline-offset: 4px;
     margin: 0 4px;
+    &:hover{
+    text-underline-offset: -4px;
+    }
   }
 }
